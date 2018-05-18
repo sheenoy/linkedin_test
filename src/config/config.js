@@ -10,10 +10,10 @@ export const secretKey = 'Your Secret Key';
 const urlHost = window.location.host;
 
 /* Callback url for Linkedin */
-export const callBackUrl = `http://${urlHost}/job/callback/linkedin`;
+export const callBackUrl = 'https://linked-test.herokuapp.com/job/callback/linkedin';
 
 /* Backend route for getting Linkedin Access Token */
-export const accessTokenRoute = `http://${urlHost}/linkedinaccesstoken`;
+export const accessTokenRoute = 'https://linked-test.herokuapp.com/linkedinaccesstoken';
 
 /* Backend route for getting Linkedin User Details */
-export const userDetailsRoute = `http://${urlHost}/linkedinuserdetails`;
+export const userDetailsRoute = 'https://linked-test.herokuapp.com/linkedinuserdetails';
